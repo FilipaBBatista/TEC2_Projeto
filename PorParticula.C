@@ -3,7 +3,7 @@ void PorParticula(){
 //ler ficheiro
 TFile *ficheiro = new TFile("AmberTarget_Run_0.root", "READ");
 //criar ficheiro
-TFile *ficheiroGravar = new TFile("Analise.root", "RECREATE");
+TFile *ficheiroGravar = new TFile("Analise2.root", "RECREATE");
 //buscar a arvore certa
 TTree *dados = (TTree*)ficheiro->Get("tracksData.q");
 
